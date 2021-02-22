@@ -1,3 +1,36 @@
 body {
     padding-top: 5rem;
 }
+p{
+    font-weight: bolder;
+}
+.button{
+    background-color: #008CBA;
+    font-size: 16px;
+    font-weight: bolder;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.button:hover {
+    background-color: #4CAF50; 
+    color: white;
+}
+.text{
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+}
+input[type="text"] {
+    width: 250px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    word-wrap: break-word;
+
+}
